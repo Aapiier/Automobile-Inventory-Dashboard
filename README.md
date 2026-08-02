@@ -1,2 +1,1 @@
-# Projects
-Data Analysis Projects By Me 
+# Automobile Inventory Dashboard
