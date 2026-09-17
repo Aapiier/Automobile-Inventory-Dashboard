@@ -38,17 +38,6 @@ The report uses a star-schema style model.
 
 ![Data model](documentation/data_model.png)
 
-```text
-DateTable ────────────────> fact_Sales
-
-dim_Customers ───────────> fact_Sales
-dim_Dealers ─────────────> fact_Sales
-dim_Vehicles ────────────> fact_Sales
-
-dim_Dealers ─────────────> fact_Inventory
-dim_Vehicles ────────────> fact_Inventory
-```
-
 ![Relationships](documentation/relationships.png)
 
 ### Tables
